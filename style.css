@@ -9,10 +9,10 @@ body {
 
 body > * {
     width: 75vw;
+    display: flex;
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -32,4 +32,44 @@ body > * {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.hero {
+    justify-content: space-between;
+    padding: 7.5vw 0;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-right {
+    background-color: lightslategrey;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    border-radius: 5px;
+    border: none;
+    color: #F9FAF8;
+}
+
+.first {
+    background-color: #3882F6;
 }
