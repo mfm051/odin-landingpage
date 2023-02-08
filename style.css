@@ -122,3 +122,28 @@ body > * {
     width: 100px;
     text-align: center;
 }
+
+.quotation-container {
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+
+.quotation-container * {
+    margin: 0;
+    width: 50vw;
+}
+
+.quotation-main {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937
+}
+
+.quotation-secondary {
+    text-align: end;
+    font-weight: bold;
+}
