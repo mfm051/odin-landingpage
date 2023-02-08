@@ -175,6 +175,10 @@ body > * {
     margin: 0;
 }
 
+.sign-up-left {
+    color: #F9FAF8
+}
+
 .last {
     background-color: #3882F6;
     border: white solid 2px;
