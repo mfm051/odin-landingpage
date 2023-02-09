@@ -166,11 +166,12 @@ body > * {
 .sign-up-content {
     background-color: #3882F6;
     margin: 0 10%;
-    height: 15%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5% 10%;
+    border-radius: 5px;
 }
 
 .sign-up-content * {
@@ -178,7 +179,7 @@ body > * {
 }
 
 .sign-up-left {
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 .last {
