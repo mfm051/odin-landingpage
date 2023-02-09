@@ -160,14 +160,13 @@ body > * {
 
 .sign-up-container {
     height: 80vh;
-    width: 75vw;
     justify-content: center;
     align-items: center;
 }
 
 .sign-up-content {
     background-color: #3882F6;
-    width: 80%;
+    margin: 0 10%;
     height: 15%;
     display: flex;
     justify-content: space-between;
