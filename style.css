@@ -5,7 +5,8 @@ body {
 
 body > * {
     display: flex;
-    padding: 0 12.25vw;
+    /* padding: 0 12.5vw; */
+    /* width: 100%; */
 }
 
 .header {
@@ -13,7 +14,7 @@ body > * {
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    width: 75vw;
+    width: 100%;
     position: fixed;
     top: 0;
 }
@@ -33,25 +34,26 @@ body > * {
     list-style: none;
     padding: 0;
     margin: 0;
-    max-width: 50%;
+    /* max-width: 50%; */
 }
 
 .hero {
     background-color: #1F2937;
     justify-content: space-between;
-    padding-top: 7.5vw;
-    padding-bottom: 7.5vw;
-    flex-wrap: wrap;
-    gap: 10px;
+    align-items: center;
+    /* padding-top: 7.5vw;
+    padding-bottom: 7.5vw; */
+    /* flex-wrap: wrap; */
     height: 90vh;
+    /* width: 75vw; */
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 480px;
-    gap: 5px;
+    width: 45%;
+    /* gap: 5px; */
 }
 
 .hero-left * {
@@ -72,7 +74,7 @@ body > * {
 
 .hero-right {
     background-color: lightslategrey;
-    width: 480px;
+    width: 45%;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -96,7 +98,10 @@ body > * {
 .info-container {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 90vh;
+    /* width: 75vw; */
+    padding: 0 12.5vw;
 }
 
 .info-up {
@@ -131,10 +136,11 @@ body > * {
 .quotation-container {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #E5E7EB;
-    padding-top: 6vw;
-    padding-bottom: 6vw;
     height: 90vh;
+    /* width: 75vw; */
+    padding: 0 12.5vw;
 }
 
 .quotation-container * {
@@ -156,6 +162,7 @@ body > * {
 
 .sign-up-container {
     height: 80vh;
+    width: 75vw;
     justify-content: center;
     align-items: center;
 }
@@ -189,4 +196,5 @@ body > * {
     align-items: center;
     color: #F9FAF8;
     height: 10vh;
+    width: 100%;
 }
