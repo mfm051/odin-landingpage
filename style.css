@@ -61,7 +61,7 @@ body > * {
 .hero-main {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
 }
 
 .hero-secondary {
@@ -104,6 +104,9 @@ body > * {
 
 .info-up {
     text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .info-down {
@@ -156,6 +159,7 @@ body > * {
 .quotation-secondary {
     text-align: end;
     font-weight: bold;
+    padding-top: 15px;
 }
 
 .sign-up-container {
@@ -194,4 +198,5 @@ body > * {
     color: #F9FAF8;
     height: 10vh;
     width: 100%;
+    font-size: 18px;
 }
