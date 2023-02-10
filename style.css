@@ -118,13 +118,16 @@ body > * {
     display: flex;
     justify-content: center;
     gap: 25px;
-    flex-wrap: wrap;
 }
 
 .info-block {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.info-block:hover {
+    transform: scale(1.1);
 }
 
 .info-placeholder {
